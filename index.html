@@ -428,12 +428,12 @@ html{ -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; text-size-adjus
   --amber-soft: rgba(255,171,77,0.14);
 
   /* room category colors */
-  --cat-editing:#8b93c4;
-  --cat-live:#6fb4f5;
-  --cat-content:#9c7bff;
-  --cat-sound:#e08bff;
-  --cat-performance:#ff6a85;
-  --cat-support:#8891a6;
+  --cat-editing:#8b5cf6;
+  --cat-live:#38bdf8;
+  --cat-content:#ec4899;
+  --cat-sound:#22c55e;
+  --cat-performance:#f59e0b;
+  --cat-support:#f97316;
 
   --blueprint-line: rgba(148,201,253,0.10);
   --shadow-soft: 0 20px 60px -25px rgba(0,0,0,0.65);
@@ -1339,28 +1339,34 @@ html.no-cssvars .zone-block.corridor rect{fill:#f7f8f4;stroke:#d6d9d0;}
 html.no-cssvars .zone-block.corridor text{fill:#292c32;}
 html.no-cssvars .zone-block.core rect{fill:#07080a;stroke:#343640;}
 html.no-cssvars .zone-block.core text{fill:#f5f6fa;}
-html.no-cssvars .room-block[data-cat="editing"] .room-shape{fill:#8b93c4;stroke:#8b93c4;}
-html.no-cssvars .room-block[data-cat="live"] .room-shape{fill:#6fb4f5;stroke:#6fb4f5;}
-html.no-cssvars .room-block[data-cat="content"] .room-shape{fill:#9c7bff;stroke:#9c7bff;}
-html.no-cssvars .room-block[data-cat="sound"] .room-shape{fill:#e08bff;stroke:#e08bff;}
-html.no-cssvars .room-block[data-cat="performance"] .room-shape{fill:#ff6a85;stroke:#ff6a85;}
-html.no-cssvars .room-block[data-cat="support"] .room-shape{fill:#8891a6;stroke:#8891a6;}
-html.no-cssvars .room-block[data-room-color="equipment"] .room-shape{fill:#f28c28;stroke:#f28c28;}
+html.no-cssvars .room-block[data-cat="editing"] .room-shape{fill:#8b5cf6;stroke:#8b5cf6;}
+html.no-cssvars .room-block[data-cat="live"] .room-shape{fill:#38bdf8;stroke:#38bdf8;}
+html.no-cssvars .room-block[data-cat="content"] .room-shape{fill:#ec4899;stroke:#ec4899;}
+html.no-cssvars .room-block[data-cat="sound"] .room-shape{fill:#22c55e;stroke:#22c55e;}
+html.no-cssvars .room-block[data-cat="performance"] .room-shape{fill:#f59e0b;stroke:#f59e0b;}
+html.no-cssvars .room-block[data-cat="support"] .room-shape{fill:#f97316;stroke:#f97316;}
+html.no-cssvars .room-block[data-code="7412"] .room-shape{fill:#dc2626;stroke:#dc2626;}
+html.no-cssvars .room-block[data-code="7426"] .room-shape{fill:#facc15;stroke:#facc15;}
+html.no-cssvars .room-block[data-code="7424-A"] .room-shape{fill:#14b8a6;stroke:#14b8a6;}
 html.no-cssvars .room-block.is-selected .room-shape{stroke:#ffab4d;}
 html.no-cssvars .room-card[data-cat="editing"] .room-card-code,
-html.no-cssvars .room-card[data-cat="editing"] .room-card-icon{color:#8b93c4;}
+html.no-cssvars .room-card[data-cat="editing"] .room-card-icon{color:#8b5cf6;}
 html.no-cssvars .room-card[data-cat="live"] .room-card-code,
-html.no-cssvars .room-card[data-cat="live"] .room-card-icon{color:#6fb4f5;}
+html.no-cssvars .room-card[data-cat="live"] .room-card-icon{color:#38bdf8;}
 html.no-cssvars .room-card[data-cat="content"] .room-card-code,
-html.no-cssvars .room-card[data-cat="content"] .room-card-icon{color:#9c7bff;}
+html.no-cssvars .room-card[data-cat="content"] .room-card-icon{color:#ec4899;}
 html.no-cssvars .room-card[data-cat="sound"] .room-card-code,
-html.no-cssvars .room-card[data-cat="sound"] .room-card-icon{color:#e08bff;}
+html.no-cssvars .room-card[data-cat="sound"] .room-card-icon{color:#22c55e;}
 html.no-cssvars .room-card[data-cat="performance"] .room-card-code,
-html.no-cssvars .room-card[data-cat="performance"] .room-card-icon{color:#ff6a85;}
+html.no-cssvars .room-card[data-cat="performance"] .room-card-icon{color:#f59e0b;}
 html.no-cssvars .room-card[data-cat="support"] .room-card-code,
-html.no-cssvars .room-card[data-cat="support"] .room-card-icon{color:#8891a6;}
-html.no-cssvars .room-card[data-room-color="equipment"] .room-card-code,
-html.no-cssvars .room-card[data-room-color="equipment"] .room-card-icon{color:#f28c28;}
+html.no-cssvars .room-card[data-cat="support"] .room-card-icon{color:#f97316;}
+html.no-cssvars .room-card[data-code="7412"] .room-card-code,
+html.no-cssvars .room-card[data-code="7412"] .room-card-icon{color:#dc2626;}
+html.no-cssvars .room-card[data-code="7426"] .room-card-code,
+html.no-cssvars .room-card[data-code="7426"] .room-card-icon{color:#facc15;}
+html.no-cssvars .room-card[data-code="7424-A"] .room-card-code,
+html.no-cssvars .room-card[data-code="7424-A"] .room-card-icon{color:#14b8a6;}
 html.no-cssvars .lock-cat,
 html.no-cssvars .modal-cat{background:rgba(255,171,77,.14);color:#f1f3fb;}
 html.no-cssvars .lock-code,
@@ -1965,15 +1971,15 @@ html.no-cssvars[data-theme="light"] #contactModal .modal-panel{background:#fff;b
     {code:'7415', nameEn:'Live Streaming Studio 1', nameTh:'ห้องไลฟ์สตรีมมิ่ง 1', cat:'live', dims:'8.45 × 6 ม.', area:50.7, x:877,y:85,w:203,h:194},
 
     // Equipment and student service areas around the upper plan.
-    {code:'7412', nameEn:'Equipment Room 1', nameTh:'ห้องเก็บอุปกรณ์ 1', cat:'support', color:'#f28c28', x:750,y:10,w:330,h:75},
-    {code:'7426', nameEn:'Equipment Room 3', nameTh:'ห้องเก็บอุปกรณ์ 3', cat:'support', color:'#f28c28', x:0,y:167,w:81,h:112},
+    {code:'7412', nameEn:'Equipment Room 1', nameTh:'ห้องเก็บอุปกรณ์ 1', cat:'support', color:'#dc2626', x:750,y:10,w:330,h:75},
+    {code:'7426', nameEn:'Equipment Room 3', nameTh:'ห้องเก็บอุปกรณ์ 3', cat:'support', color:'#facc15', x:0,y:167,w:81,h:112},
     {code:'SVC',  nameEn:'Student Service',  nameTh:'จุดให้บริการนักศึกษา', cat:'support', x:151,y:20,w:68,h:55},
 
     // Content studios with the attached Master Control and Equipment Room 2.
     {code:'7425', nameEn:'Content Studio 1', nameTh:'คอนเทนต์สตูดิโอ 1', cat:'content', dims:'18 × 10 ม.', area:180, x:0,y:351,w:149,h:249, path:'M0 351 H149 V600 H90 V533 H0 Z', labelX:78,labelY:437,labelW:138,labelH:130},
     {code:'MCR',  nameEn:'Master Control Room', nameTh:'ห้องควบคุมการออกอากาศ', cat:'content', x:0,y:533,w:90,h:67},
     {code:'7424', nameEn:'Content Studio 2', nameTh:'คอนเทนต์สตูดิโอ 2', cat:'content', dims:'8.45 × 12 ม.', area:101.4, x:149,y:327,w:172,h:206},
-    {code:'7424-A', nameEn:'Equipment Room 2', nameTh:'ห้องเก็บอุปกรณ์ 2', cat:'support', color:'#f28c28', x:149,y:533,w:172,h:67},
+    {code:'7424-A', nameEn:'Equipment Room 2', nameTh:'ห้องเก็บอุปกรณ์ 2', cat:'support', color:'#14b8a6', x:149,y:533,w:172,h:67},
 
     // Sound studios sit immediately left of the white stair corridor.
     {code:'7422', nameEn:'Sound Studio 1', nameTh:'ห้องบันทึกเสียง 1', cat:'sound', dims:'6.2 × 5.2 ม.', area:32.24, status:'ON AIR', x:321,y:327,w:129,h:139},
@@ -1989,6 +1995,73 @@ html.no-cssvars[data-theme="light"] #contactModal .modal-panel{background:#fff;b
     {code:'7416', nameEn:'Acting Room 1', nameTh:'ห้องการแสดง 1', cat:'performance', dims:'8.9 × 6 ม.', area:53.4, x:873,y:327,w:207,h:132},
     {code:'7417', nameEn:'Acting Room 2', nameTh:'ห้องการแสดง 2', cat:'performance', dims:'8.9 × 6 ม.', area:53.4, approx:true, x:873,y:459,w:207,h:141}
   ];
+
+  /* Room panorama set mirrored from NitadeCreatorLabDPU / #facilities. */
+  var roomPanoramaFiles = {
+    editing:'assets/images/rooms/360/7401-7410.jpg',
+    liveShared:'assets/images/rooms/360/7411-7413.jpg',
+    room7414:'assets/images/rooms/360/7414.jpg',
+    room7415:'assets/images/rooms/360/7415.jpg',
+    actingShared:'assets/images/rooms/360/7416-7417.jpg',
+    room7418:'assets/images/rooms/360/7418.jpg',
+    actingShared2:'assets/images/rooms/360/7419-7420.jpg',
+    room7421Angle1:'assets/images/rooms/360/7421-angle-1.jpg',
+    room7421Angle2:'assets/images/rooms/360/7421-angle-2.jpg',
+    room7422:'assets/images/rooms/360/7422.jpg',
+    room7423Angle1:'assets/images/rooms/360/7423-angle-1.jpg',
+    room7423Angle2:'assets/images/rooms/360/7423-angle-2.jpg',
+    room7424:'assets/images/rooms/360/7424.jpg',
+    room7425:'assets/images/rooms/360/7425.jpg',
+    room7424A:'assets/images/rooms/360/7424-A.jpg',
+    mcr:'assets/images/rooms/360/mcr.jpg'
+  };
+
+  function roomPanorama(src, title){
+    return {src:src, title:title, config:{yaw:0,pitch:0,hfov:105}};
+  }
+
+  var roomMediaConfig = {
+    '7401':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7401 · ภาพ 360°')]},
+    '7402':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7402 · ภาพ 360°')]},
+    '7403':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7403 · ภาพ 360°')]},
+    '7404':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7404 · ภาพ 360°')]},
+    '7405':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7405 · ภาพ 360°')]},
+    '7406':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7406 · ภาพ 360°')]},
+    '7407':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7407 · ภาพ 360°')]},
+    '7408':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7408 · ภาพ 360°')]},
+    '7409':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7409 · ภาพ 360°')]},
+    '7410':{panoramas:[roomPanorama(roomPanoramaFiles.editing,'ห้อง 7410 · ภาพ 360°')]},
+    '7411':{panoramas:[roomPanorama(roomPanoramaFiles.liveShared,'ห้อง 7411 · ภาพ 360°')]},
+    '7413':{panoramas:[roomPanorama(roomPanoramaFiles.liveShared,'ห้อง 7413 · ภาพ 360°')]},
+    '7414':{panoramas:[roomPanorama(roomPanoramaFiles.room7414,'ห้อง 7414 · ภาพ 360°')]},
+    '7415':{panoramas:[roomPanorama(roomPanoramaFiles.room7415,'ห้อง 7415 · ภาพ 360°')]},
+    '7416':{panoramas:[roomPanorama(roomPanoramaFiles.actingShared,'ห้อง 7416 · ภาพ 360°')]},
+    '7417':{panoramas:[roomPanorama(roomPanoramaFiles.actingShared,'ห้อง 7417 · ภาพ 360°')]},
+    '7418':{panoramas:[roomPanorama(roomPanoramaFiles.room7418,'ห้อง 7418 · ภาพ 360°')]},
+    '7419':{panoramas:[roomPanorama(roomPanoramaFiles.actingShared2,'ห้อง 7419 · ภาพ 360°')]},
+    '7420':{panoramas:[roomPanorama(roomPanoramaFiles.actingShared2,'ห้อง 7420 · ภาพ 360°')]},
+    '7421':{panoramas:[
+      roomPanorama(roomPanoramaFiles.room7421Angle1,'ห้อง 7421 · มุมที่ 1'),
+      roomPanorama(roomPanoramaFiles.room7421Angle2,'ห้อง 7421 · มุมที่ 2')
+    ]},
+    '7422':{panoramas:[roomPanorama(roomPanoramaFiles.room7422,'ห้อง 7422 · ภาพ 360°')]},
+    '7423':{panoramas:[
+      roomPanorama(roomPanoramaFiles.room7423Angle1,'ห้อง 7423 · มุมที่ 1'),
+      roomPanorama(roomPanoramaFiles.room7423Angle2,'ห้อง 7423 · มุมที่ 2')
+    ]},
+    '7424':{panoramas:[roomPanorama(roomPanoramaFiles.room7424,'ห้อง 7424 · ภาพ 360°')]},
+    '7425':{panoramas:[roomPanorama(roomPanoramaFiles.room7425,'ห้อง 7425 · ภาพ 360°')]},
+    'MCR':{panoramas:[roomPanorama(roomPanoramaFiles.mcr,'ห้อง MCR · ภาพ 360°')]},
+    '7424-A':{panoramas:[roomPanorama(roomPanoramaFiles.room7424A,'ห้อง 7424-A · ภาพ 360°')]}
+  };
+
+  ROOMS.forEach(function(room){
+    var configuredMedia = roomMediaConfig[room.code];
+    if(!configuredMedia) return;
+    room.images = configuredMedia.images || [];
+    room.panoramas = configuredMedia.panoramas || [];
+  });
+  window.NCLRoomMedia = roomMediaConfig;
 
   var ZONES = [
     {label:'ลิฟท์ / บันได', type:'core', x:0,y:10,w:150,h:157},
